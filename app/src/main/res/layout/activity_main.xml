@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFB6B6"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="181dp"
+        android:layout_height="53dp"
+        android:fontFamily="serif-monospace"
+        android:text="Biancaaa"
+        android:textSize="34sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.56"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.073" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="384dp"
+        android:layout_height="228dp"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vulputate sapien sit amet purus gravida, sed tincidunt risus tempor. Suspendisse vitae sem at metus fermentum lacinia. Cras eu purus interdum erat suscipit cursus. Proin porttitor posuere efficitur. Proin elit risus, vestibulum eget commodo a, interdum vulputate lacus. Aenean condimentum commodo nisl vel viverra. Aenean mauris nunc, suscipit ut dui quis, feugiat vehicula risus. Nulla facilisi. Sed vitae ante est. Aenean viverra sed nibh at scelerisque. Praesent ac rutrum odio, sit amet maximus massa. Nulla ut augue ut libero laoreet auctor sed eget ex. Nullam aliquet ante ut interdum fringilla. Donec maximus ut tortor in gravida."
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="13dp"
+        tools:layout_editor_absoluteY="115dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="265dp"
+        android:layout_height="221dp"
+        app:srcCompat="@drawable/catmeme"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="343dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
